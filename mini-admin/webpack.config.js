@@ -1,0 +1,57 @@
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const { SourceMapDevToolPlugin } = require("webpack");
+const path = require('path');
+
+module.exports = {
+  entry: {
+    app: path.resolve(__dirname, 'src/index.js')
+  },
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'static/'),
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
+      },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        loader: 'file-loader',
+        options: {
+          outputPath: 'static/images/'
+        }
+      },
+      {
+        test: /\.(ttf|eot|svg|gif|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        use: [{
+          loader: 'file-loader',
+        }]
+      },
+    ],
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx', '.css']
+  },
+  plugins: [
+    new MiniCssExtractPlugin(),
+    new SourceMapDevToolPlugin({
+      filename: "[file].map"
+    })
+  ],
+  optimization: {
+    minimizer: [
+      new CssMinimizerPlugin()
+    ]
+  },
+  // DevServer 설정 추가
+  devServer: {
+    contentBase: path.resolve(__dirname, 'static/'),
+    compress: true,
+    port: 8080, // 원하는 포트 번호로 설정
+    hot: true,
+    opne: true,
+  },
+};

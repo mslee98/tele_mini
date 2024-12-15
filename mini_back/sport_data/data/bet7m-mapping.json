@@ -1,0 +1,382 @@
+{
+    "leagues": {
+      "AA1A8D": {
+        "id": 1,
+        "name": "MLB",
+        "kr_name": "메이저 리그 베이스볼"
+      },
+      "E34250": {
+        "id": 2,
+        "name": "KBO",
+        "kr_name": "한국 프로 야구"
+      },
+      "339933": {
+        "id": 3,
+        "name": "NPB",
+        "kr_name": "일본 프로 야구"
+      }
+    },
+    "teams": {
+      "26": {
+        "id": 1,
+        "name": "New York Yankees",
+        "kr_name": "애리조나 다이아몬드백스"
+      },
+      "29": {
+        "id": 2,
+        "name": "Atlanta Braves",
+        "kr_name": "애틀랜타 브레이브스"
+      },
+      "22": {
+        "id": 3,
+        "name": "Baltimore Orioles",
+        "kr_name": "볼티모어 오리올스"
+      },
+      "55": {
+        "id": 4,
+        "name": "Boston Red Sox",
+        "kr_name": "보스턴 레드삭스"
+      },
+      "33": {
+        "id": 5,
+        "name": "Chicago White Sox",
+        "kr_name": "시카고 화이트삭스"
+      },
+      "24": {
+        "id": 6,
+        "name": "Chicago Cubs",
+        "kr_name": "시카고 컵스"
+      },
+      "58": {
+        "id": 7,
+        "name": "Cincinnati Reds",
+        "kr_name": "신시내티 레즈"
+      },
+      "28": {
+        "id": 8,
+        "name": "Cleveland Guardians",
+        "kr_name": "클리블랜드 가디언스"
+      },
+      "25": {
+        "id": 9,
+        "name": "Colorado Rockies",
+        "kr_name": "콜로라도 로키스"
+      },
+      "31": {
+        "id": 10,
+        "name": "Detroit Tigers",
+        "kr_name": "디트로이트 타이거즈"
+      },
+      "53": {
+        "id": 11,
+        "name": "Houston Astros",
+        "kr_name": "휴스턴 애스트로스"
+      },
+      "56": {
+        "id": 12,
+        "name": "Kansas City Royals",
+        "kr_name": "캔자스시티 로열스"
+      },
+      "47": {
+        "id": 13,
+        "name": "Los Angeles Angels",
+        "kr_name": "로스앤젤레스 에인절스"
+      },
+      "57": {
+        "id": 14,
+        "name": "Los Angeles Dodgers",
+        "kr_name": "로스앤젤레스 다저스"
+      },
+      "51": {
+        "id": 15,
+        "name": "Miami Marlins",
+        "kr_name": "마이애미 말린스"
+      },
+      "20": {
+        "id": 16,
+        "name": "Milwaukee Brewers",
+        "kr_name": "밀워키 브루어스"
+      },
+      "48": {
+        "id": 17,
+        "name": "Minnesota Twins",
+        "kr_name": "미네소타 트윈스"
+      },
+      "21": {
+        "id": 18,
+        "name": "New York Yankees",
+        "kr_name": "뉴욕 양키스"
+      },
+      "52": {
+        "id": 19,
+        "name": "New York Mets",
+        "kr_name": "뉴욕 메츠"
+      },
+      "35": {
+        "id": 20,
+        "name": "Oakland Athletics",
+        "kr_name": "오클랜드 애슬레틱스"
+      },
+      "23": {
+        "id": 21,
+        "name": "Philadelphia Phillies",
+        "kr_name": "필라델피아 필리스"
+      },
+      "19": {
+        "id": 22,
+        "name": "Pittsburgh Pirates",
+        "kr_name": "피츠버그 파이리츠"
+      },
+      "36": {
+        "id": 23,
+        "name": "San Diego Padres",
+        "kr_name": "샌디에고 파드레스"
+      },
+      "30": {
+        "id": 24,
+        "name": "San Francisco Giants",
+        "kr_name": "샌프란시스코 자이언츠"
+      },
+      "32": {
+        "id": 25,
+        "name": "Seattle Mariners",
+        "kr_name": "시애틀 매리너스"
+      },
+      "38": {
+        "id": 26,
+        "name": "St. Louis Cardinals",
+        "kr_name": "세인트루이스 카디널스"
+      },
+      "34": {
+        "id": 27,
+        "name": "Tampa Bay Rays",
+        "kr_name": "탬파베이 레이스"
+      },
+      "54": {
+        "id": 28,
+        "name": "Texas Rangers",
+        "kr_name": "텍사스 레인저스"
+      },
+      "27": {
+        "id": 29,
+        "name": "Toronto Blue Jays",
+        "kr_name": "토론토 블루제이스"
+      },
+      "37": {
+        "id": 30,
+        "name": "Washington Nationals",
+        "kr_name": "워싱턴 내셔널스"
+      },
+      "62": {
+        "id": 31,
+        "name": "Doosan Bears",
+        "kr_name": "두산 베어스"
+      },
+      "65": {
+        "id": 32,
+        "name": "Hanwha Eagles",
+        "kr_name": "한화 이글스"
+      },
+      "66": {
+        "id": 33,
+        "name": "Kiwoom Heroes",
+        "kr_name": "키움 히어로즈"
+      },
+      "133": {
+        "id": 34,
+        "name": "KT Wiz",
+        "kr_name": "KT 위즈"
+      },
+      "61": {
+        "id": 35,
+        "name": "KIA Tigers",
+        "kr_name": "기아 타이거즈"
+      },
+      "67": {
+        "id": 36,
+        "name": "LG Twins",
+        "kr_name": "LG 트윈스"
+      },
+      "63": {
+        "id": 37,
+        "name": "Lotte Giants",
+        "kr_name": "롯데 자이언츠"
+      },
+      "114": {
+        "id": 38,
+        "name": "NC Dinos",
+        "kr_name": "NC 다이노스"
+      },
+      "64": {
+        "id": 39,
+        "name": "Samsung Lions",
+        "kr_name": "삼성 라이온즈"
+      },
+      "68": {
+        "id": 40,
+        "name": "SSG Landers",
+        "kr_name": "SSG 랜더스"
+      },
+      "13": {
+        "id": 41,
+        "name": "Hanshin Tigers",
+        "kr_name": "한신 타이거즈"
+      },
+      "15": {
+        "id": 42,
+        "name": "Hiroshima Toyo Carp",
+        "kr_name": "히로시마 도요 카프"
+      },
+      "18": {
+        "id": 43,
+        "name": "Yokohama DeNA BayStars",
+        "kr_name": "요코하마 DeNA 베이스타즈"
+      },
+      "17": {
+        "id": 44,
+        "name": "Yomiuri Giants",
+        "kr_name": "요미우리 자이언츠"
+      },
+      "14": {
+        "id": 45,
+        "name": "Tokyo Yakult Swallows",
+        "kr_name": "도쿄 야쿠르트 스왈로즈"
+      },
+      "16": {
+        "id": 46,
+        "name": "Chunichi Dragons",
+        "kr_name": "주니치 드래건즈"
+      },
+      "10": {
+        "id": 47,
+        "name": "ORIX Buffaloes",
+        "kr_name": "오릭스 버팔로즈"
+      },
+      "11": {
+        "id": 48,
+        "name": "Chiba Lotte Marines",
+        "kr_name": "치바 롯데 마린즈"
+      },
+      "12": {
+        "id": 49,
+        "name": "Fukuoka SoftBank Hawks",
+        "kr_name": "후쿠오카 소프트뱅크 호크스"
+      },
+      "9": {
+        "id": 50,
+        "name": "Tohoku Rakuten Golden Eagles",
+        "kr_name": "도호쿠 라쿠텐 골든이글스"
+      },
+      "8": {
+        "id": 51,
+        "name": "Saitama Seibu Lions",
+        "kr_name": "사이타마 세이부 라이온즈"
+      },
+      "7": {
+        "id": 52,
+        "name": "Hokkaido Nippon-Ham Fighters",
+        "kr_name": "홋카이도 닛폰햄 파이터즈"
+      },
+      "1053": {
+        "id": 53,
+        "name": "Arsenal",
+        "kr_name": "아스널"
+      },
+      "1054": {
+        "id": 54,
+        "name": "Aston Villa",
+        "kr_name": "아스톤 빌라"
+      },
+      "1055": {
+        "id": 55,
+        "name": "Bournemouth",
+        "kr_name": "본머스"
+      },
+      "1056": {
+        "id": 56,
+        "name": "Brentford",
+        "kr_name": "브렌트포드"
+      },
+      "1057": {
+        "id": 57,
+        "name": "Brighton & Hove Albion",
+        "kr_name": "브라이튼 앤 호브 앨비언"
+      },
+      "1058": {
+        "id": 58,
+        "name": "Chelsea",
+        "kr_name": "첼시"
+      },
+      "1059": {
+        "id": 59,
+        "name": "Crystal Palace",
+        "kr_name": "크리스탈 팰리스"
+      },
+      "1060": {
+        "id": 60,
+        "name": "Everton",
+        "kr_name": "에버턴"
+      },
+      "1061": {
+        "id": 61,
+        "name": "Fulham",
+        "kr_name": "풀럼"
+      },
+      "1062": {
+        "id": 62,
+        "name": "Liverpool",
+        "kr_name": "리버풀"
+      },
+      "1063": {
+        "id": 63,
+        "name": "Manchester City",
+        "kr_name": "맨체스터 시티"
+      },
+      "1064": {
+        "id": 64,
+        "name": "Manchester United",
+        "kr_name": "맨체스터 유나이티드"
+      },
+      "1065": {
+        "id": 65,
+        "name": "Newcastle United",
+        "kr_name": "뉴캐슬 유나이티드"
+      },
+      "1066": {
+        "id": 66,
+        "name": "Nottingham Forest",
+        "kr_name": "노팅엄 포레스트"
+      },
+      "1067": {
+        "id": 67,
+        "name": "Southampton",
+        "kr_name": "사우샘프턴"
+      },
+      "1068": {
+        "id": 68,
+        "name": "Tottenham Hotspur",
+        "kr_name": "토트넘 홋스퍼"
+      },
+      "1069": {
+        "id": 69,
+        "name": "West Ham United",
+        "kr_name": "웨스트 햄 유나이티드"
+      },
+      "1070": {
+        "id": 70,
+        "name": "Wolverhampton Wanderers",
+        "kr_name": "울버햄튼 원더러스"
+      },
+      "1071": {
+        "id": 71,
+        "name": "Leicester City",
+        "kr_name": "레스터 시티"
+      },
+      "1072": {
+        "id": 72,
+        "name": "Ipswich Town",
+        "kr_name": "입스위치 타운"
+      }
+    }
+  }
+  
